@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css" />
+	<title>To Do Test App</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="display-4 mb-2">To Do Test App</div>
+		<div class="h4 mb-5">List of Plans for Today</div>
+
+		<div class="card mb-4">
+			<ul id="tasksList" class="list-group list-group-flush">
+
+				<!-- <li id="emptyList" class="list-group-item empty-list">
+					<img src="./img/leaf.svg" alt="Empty" width="48" class="mt-3">
+					<div class="empty-list__title">List is empty</div>
+				</li> -->
+
+				<!-- <li class="list-group-item d-flex justify-content-between task-item">
+					<span class="task-title">Learn MySQL</span>
+					<div class="task-item__buttons">
+						<button type="button" data-action="done" class="btn-action">
+							<img src="./img/tick.svg" alt="Done" width="18" height="18">
+						</button>
+						<button type="button" data-action="delete" class="btn-action">
+							<img src="./img/cross.svg" alt="Done" width="18" height="18">
+						</button>
+					</div>
+				</li> -->
+
+			</ul>
+		</div>
+
+
+		<div class="card bg-light">
+			<div class="card-header">Add new task</div>
+			<div class="card-body">
+				<form id="form">
+					<div class="form-group">
+						<input type="text" class="form-control mb-1" id="taskInput" placeholder="Your task" required>
+						<small id="emailHelp" class="form-text text-muted">Today you can complete
+							everything :)</small>
+					</div>
+					<button type="submit" class="btn btn-primary btn-lg active mt-2">Add</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
